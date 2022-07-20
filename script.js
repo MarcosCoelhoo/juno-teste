@@ -19,7 +19,7 @@ function scrollSuave(event) {
   const section = document.querySelector("#topo");
   section.scrollIntoView({
     behavior: "smooth",
-    block: "start",
+    block: "start", 
   });
 }
 

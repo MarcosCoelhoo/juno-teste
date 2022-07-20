@@ -120,7 +120,7 @@ input {
   font-size: 14px;
   align-self: center;
   color: #a2b5f3;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .senha-box a:hover {
@@ -148,13 +148,14 @@ input {
   font-weight: 600;
   font-family: "Roboto", sans-serif;
   border-radius: 5px;
+  color: #252aff;
 }
 
 .footer-form a:hover {
-  border: 1px solid #252aff ;
+  border: 1px solid #252aff;
 }
 
-@media (max-width:650px) {
+@media (max-width: 650px) {
   body {
     justify-content: center;
   }
