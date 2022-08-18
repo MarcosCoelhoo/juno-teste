@@ -1,33 +1,3 @@
-<?php
-
-  if (isset($_POST['email']) || isset($_POST['senha'])) {
-    
-    // if (strlen($_POST['email']) == '0') {
-    //   echo "Preencha seu email"
-    // } else if (strlen($_POST['senha']) == '0') {
-    //     echo "Preencha sua senha"
-    // } else {
-
-    // }
-
-
-  // echo $_POST['email'];
-  // echo '<br>';
-  // echo $_POST['senha'];
-
-  include_once('conect.html');
-
-  $email = $_POST['email'];
-  $senha = $_POST['senha'];
-
-  // $query = "INSERT INTO contas(email, senha) VALUES ('$email', '$senha')";
-
-  $result = mysqli_query($conexao, "INSERT INTO contas(email, senha) VALUES ('$email', '$senha')");
-
-  };
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
